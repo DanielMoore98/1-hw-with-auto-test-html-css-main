@@ -63,11 +63,33 @@
                 - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
                 - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
-        </div>
+            <label for="html5">
+                <input id="html5" type="checkbox" name="html5" checked>
+                HTML5
+            </label>
+            <label for="css3">
+                <input id="css3" type="checkbox" name="css3">
+                CSS3
+            </label>
+            <label for="js">
+                <input id="js" type="checkbox" name="js" checked>
+                JavaScript
+            </label>
+            <label for="jq">
+                <input id="jq" type="checkbox"  name="jq">
+                Jquerry
+            </label>
+            <label for="react">
+                <input id="react" type="checkbox"   name="react">
+                React
+            </label>
+            </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
+        <input type="text" placeholder="Новый скилл">
         <!-- 6) Создай здесь кнопку “Добавить” -->
+        <button>Добавить</button>
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-        
+        <hr> 
         <table data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
